@@ -1,0 +1,72 @@
+      *{margin: 0;  padding: 0;}
+      body {background-color:#fff;font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;}
+      li{list-style: none;}
+      a{text-decoration: none;}
+      b{font-weight: normal;}
+      .w{  width: 1200px; margin: 0 auto;}
+
+      /*导航栏区域*/
+      #nav {
+          width: 100%;
+          height: 60px;
+          background: #1daabc;
+          box-shadow: 0 0 10px #1daabc;
+          position: fixed;
+          z-index: 9999;
+      }
+      .logo{
+          float: left;
+          background: url("../images/qunar.png") no-repeat left 8px;
+          text-indent: -9999px;
+          width: 200px;
+          height: 50px;
+          padding: 5px 0;
+          }
+      #nav  ul{float: right;}
+      #nav ul li{
+          float: left;
+          width: 150px;
+          height: 60px;
+          text-align: center;
+      }
+      #nav ul a{
+            text-align: center;
+            color: #eee;
+            font:500 18px/60px "微软雅黑";
+      }
+        #nav ul li:hover{ background: #0193a6;}
+        #nav ul .active{background: #0193a6;}
+
+        /*底部区域*/
+        #bot-banner{
+            background-color: #009fbd;
+            width: 100%;
+            height: 200px;
+            margin: 39px 0;
+            position: relative;
+        }
+        #bot-banner .w{position:relative;}
+        .app{
+            width: 100%;
+            height: 239px;
+            background: url("../images/app_footer.jpg") no-repeat ;
+            position: absolute;
+            top:-39px;
+           /* left: 0;*/
+        }
+        #place{
+            width: 100%;
+            height: 160px;
+        }
+        .link{
+            padding-bottom: 30px;
+            color: #ddd;
+        }
+        #footer{}
+        .link p{font:13px/16px "微软雅黑"; color: #555; display: inline;}
+        .link a{color: #999; font:12px/20px "微软雅黑"; padding: 0 8px;}
+        .link a:hover{color: orangered;}
+        #footer .link a:hover{color: orangered;}
+        .hr{margin: 20px auto;height: 1px;background-color: #eee;}
+        #footer .link{ text-align: center; padding: 10px 0;}
+        #footer .link a ,#footer .link p{padding: 0;color: #999; font:12px/20px "微软雅黑"; }
