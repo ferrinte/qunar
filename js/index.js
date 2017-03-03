@@ -1,4 +1,5 @@
 //index.js
+window.onlaod = function(){
     var oUl = document.querySelector('.lunbo');
     var pic = document.getElementById("ban").children[0].children;      // 轮播图图片
     var circle = document.getElementById("ban").children[1];            // 轮播图顺序
@@ -80,3 +81,4 @@
             return window.getComputedStyle(obj,null)[attr];
         }
     }
+}
